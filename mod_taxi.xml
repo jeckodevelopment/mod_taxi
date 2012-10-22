@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/module-install.dtd">
+<install version="1.5" type="module" client="site">
+<name>Taxi Calculator</name>
+<creationDate>September 2011</creationDate>
+<author>Jecko Development</author>
+<authorEmail>info@jeckodevelopment.com</authorEmail>
+<authorUrl>http://www.jeckodevelopment.com</authorUrl>
+<copyright>Copyright (C) 2011 Jecko Development. All rights reserved.</copyright>
+<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+<version>1.0</version>
+<description>Taxi Rate Calculator</description>
+<files>
+		<filename module="mod_taxi">mod_taxi.php</filename>
+        <filename>mod_taxi.xml</filename>
+        <folder>tmpl</folder>
+        <folder>assets</folder>
+</files>
+<media></media>
+<params>
+	<param name="eurokm" type="text" default="0" label="Tariffa al Km" description="Tariffa al km"/>
+</params>
+</install>
